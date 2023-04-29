@@ -35,7 +35,6 @@ def login():
 def signup():
     print("entered")
     if request.method == 'POST':
-        print("i am here")
         username = request.form['username']
         email = request.form['email']
         password = request.form['password']
@@ -219,13 +218,23 @@ def upload():
     for keyword in keywords:
         scores_dict[str(keyword)] = phrase_scores[i]
         i+=1
-    filtered_keywords = [keyword for keyword, score in scores_dict if scores_dict.get(keyword, 0) >= 1.0]
     final_keywords = []
-    for i in range(0,num):
-        final_keywords.append(str([sorted_index[i]]))
-    print(final_keywords)
-    technical_keywords = scores_dict
-    return render_template('result.html', keywords=filtered_keywords)
+        
+    # for key, value in scores_dict.items():
+    #     if value >= 1.0:
+    #         print("entered")
+    #         filtered_keywords.append(key)
+    #     else:
+    #         print(key, value)
+    
+    for i in range(len(sorted_index)):
+        print(scores_dict.get(keywords[sorted_index[i]]))
+        print("i :", i)
+        if scores_dict.get(keywords[sorted_index[i]]) >= 1.0:
+            print("entered")
+            final_keywords.append(keywords[sorted_index[i]])
+    print("final::: ", final_keywords)
+    return render_template('result.html', keywords=final_keywords)
 
 
 

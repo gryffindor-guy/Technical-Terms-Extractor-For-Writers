@@ -5,3 +5,4 @@ gryffindor_guy, hemanthbabu6041@gmail.com, 1234567
 2, 2@gmail.com, 2
 3,3@gmail.com,3
 test,test@gmail.com,test
+new_user,new_user@gmail.com,7777777

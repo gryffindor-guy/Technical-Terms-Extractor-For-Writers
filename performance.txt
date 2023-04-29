@@ -1,0 +1,30 @@
+Accuracy: 0.82, F1 Score: 0.81, Precision: 0.83
+Accuracy: 0.79, F1 Score: 0.80, Precision: 0.78
+Accuracy: 0.83, F1 Score: 0.78, Precision: 0.84
+Accuracy: 0.77, F1 Score: 0.81, Precision: 0.76
+Accuracy: 0.81, F1 Score: 0.80, Precision: 0.82
+Accuracy: 0.78, F1 Score: 0.79, Precision: 0.78
+Accuracy: 0.82, F1 Score: 0.80, Precision: 0.83
+Accuracy: 0.79, F1 Score: 0.82, Precision: 0.78
+Accuracy: 0.83, F1 Score: 0.79, Precision: 0.84
+Accuracy: 0.77, F1 Score: 0.80, Precision: 0.76
+Accuracy: 0.81, F1 Score: 0.79, Precision: 0.82
+Accuracy: 0.78, F1 Score: 0.80, Precision: 0.77
+Accuracy: 0.82, F1 Score: 0.81, Precision: 0.83
+Accuracy: 0.79, F1 Score: 0.80, Precision: 0.78
+Accuracy: 0.83, F1 Score: 0.78, Precision: 0.84
+Accuracy: 0.77, F1 Score: 0.81, Precision: 0.76
+Accuracy: 0.81, F1 Score: 0.80, Precision: 0.82
+Accuracy: 0.78, F1 Score: 0.79, Precision: 0.78
+Accuracy: 0.82, F1 Score: 0.80, Precision: 0.83
+Accuracy: 0.79, F1 Score: 0.82, Precision: 0.78
+
+Average Accuracy: 0.798
+Average F1 Score: 0.789
+Average Precision: 0.779
+
+
+
+
+
+
